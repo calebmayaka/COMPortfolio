@@ -55,7 +55,7 @@ header{
     font size of the element or its parent. Specifically, 1em is equal 
     to the current font size. Therefore: 3em means that the font size will
      be three times the size of the current font. */
-    font-size: 3em;        /* Sets the font size to 3em, making it larger than standard text. */
+    font-size: 3rem;        /* Sets the font size to 3em, making it larger than standard text. */
     color: brown;          /* Sets the text color to brown. */
     font-weight: 800;      /* Makes the text very bold. */
     cursor: pointer;       /* Changes the cursor to a pointer when hovering over the element, indicating it's clickable. */
@@ -68,4 +68,35 @@ header{
     transform: scale(1.1);
     /* this changes the color to white on hover */
     color: white;
+}
+
+/* this selects all a tags in the nav tag  */
+nav a{
+    color: white;
+    font-size:1.8rem;
+    margin-left: 4rem;
+    transition: 0.3s ease;
+
+}
+
+nav a :hover,
+/* a.active targets a tag with the class active */
+nav a.active{
+    color:brown;
+    border-bottom:3px dotted brown;
+}
+
+section{
+    /* this property ensure that contents of 
+    this section's height is as big 
+    as the height of the window theyre 
+    being displayed */
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.home{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
