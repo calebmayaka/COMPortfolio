@@ -18,16 +18,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* html{
+html{
     font-size: 62.5%;
 }
 
 body{
+    /* makes the body to cover 100% of the size of the screen */
     width: 100%;
+    /* occupoies the viewpoint height */
     height: 100vh;
+    /* this overflow custs out/ deesnt show content that overflows to the left most point of the screen */
     overflow-x: hidden;
-    background-color: black;
-    color: white;
+    /* black background instead of the default white */
+    /* background-color: black; */
+    /* color: white; */
 }
 
 header{

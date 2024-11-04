@@ -8,4 +8,53 @@
     outline:none;
     text-decoration: none;
     font-family:"poppins", sans-serif;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    /* makes the body to cover 100% of the size of the screen */
+    width: 100%;
+    /* occupoies the viewpoint height */
+    height: 100vh;
+    /* this overflow custs out/ deesnt show content that overflows to the left most point of the screen */
+    overflow-x: hidden;
+    /* black background instead of the default white */
+    background-color: black;
+    color: white;
+}
+
+header{
+    /* the header is fixed even when one scrolls */
+    position:fixed;
+    /*  a margin of 20px on top */
+    margin-top:20px;
+    /* top:0; */
+    /* left:0; */
+    /* this width defines that the content in the footer tag to occupy 100% width in the viewpoint */
+    width:100%;
+    /* places content of the tags inside the selected tag side by side */
+    display: flex;
+    /* jistofy - content equally spaces out the content that has been flexed */
+    justify-content: space-between;
+    /* adds padding to the content */
+    padding:1rem 9%;
+    background-color:transparent;
+    /* align-items: center; */
+    z-index: 100;
+    filter:drop-shadow(10px)
+
+}
+
+.logo{
+    font-size:3em;
+    color:brown;
+    font-weight:800;
+    cursor:pointer;
+    transition: 0.5s ease;
+
+
 }
