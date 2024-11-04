@@ -49,12 +49,23 @@ header{
 
 }
 
-.logo{
-    font-size:3em;
-    color:brown;
-    font-weight:800;
-    cursor:pointer;
-    transition: 0.5s ease;
+.logo {
+    /* 
+    In CSS, em is a unit of measurement that is relative to the 
+    font size of the element or its parent. Specifically, 1em is equal 
+    to the current font size. Therefore: 3em means that the font size will
+     be three times the size of the current font. */
+    font-size: 3em;        /* Sets the font size to 3em, making it larger than standard text. */
+    color: brown;          /* Sets the text color to brown. */
+    font-weight: 800;      /* Makes the text very bold. */
+    cursor: pointer;       /* Changes the cursor to a pointer when hovering over the element, indicating it's clickable. */
+    transition: 0.5s ease; /* Adds a smooth transition effect that takes 0.5 seconds for any changes in properties. */
+}
 
-
+/* .logo:hover is a class-based pseudo-class selector that targets
+ elements with the logo class only when they are hovered over. */
+.logo:hover{
+    transform: scale(1.1);
+    /* this changes the color to white on hover */
+    color: white;
 }
