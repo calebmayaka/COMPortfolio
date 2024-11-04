@@ -30,8 +30,8 @@ body{
     /* this overflow custs out/ deesnt show content that overflows to the left most point of the screen */
     overflow-x: hidden;
     /* black background instead of the default white */
-    /* background-color: black; */
-    /* color: white; */
+    background-color: black;
+    color: white;
 }
 
 header{
@@ -279,4 +279,4 @@ span{
         margin-top: 4rem;
     }
 }
- */
+ 
