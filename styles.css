@@ -1,16 +1,24 @@
+/* importing poppins font from fonts.google.com */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
+/* using the universal selector *{ */
 *{
+    /* this defines that that all compjnets have 0 margin from each other */
     margin: 0;
+    /* all elements have zero padding */
     padding: 0;
+    /* border box property makes it easier for me to work with elements in relation to the box model*/
     box-sizing: border-box;
+    /* this removes any underline, overline and strikethough decoration */
     text-decoration: none;
+    /* no border */
     border: none;
     outline: none;
+    /* poppins is the main forn while sans serif is backaup in case poppins is nor supported */
     font-family: 'Poppins', sans-serif;
 }
 
-html{
+/* html{
     font-size: 62.5%;
 }
 
@@ -267,4 +275,4 @@ span{
         margin-top: 4rem;
     }
 }
-
+ */
