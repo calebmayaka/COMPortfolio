@@ -32,8 +32,8 @@ header{
     position:fixed;
     /*  a margin of 20px on top */
     margin-top:20px;
-    /* top:0; */
-    /* left:0; */
+    top:0;
+     left:0;
     /* this width defines that the content in the footer tag to occupy 100% width in the viewpoint */
     width:100%;
     /* places content of the tags inside the selected tag side by side */
@@ -43,7 +43,7 @@ header{
     /* adds padding to the content */
     padding:1rem 9%;
     background-color:transparent;
-    /* align-items: center; */
+    align-items: center;
     z-index: 100;
     filter:drop-shadow(10px)
 
@@ -68,6 +68,9 @@ header{
     transform: scale(1.1);
     /* this changes the color to white on hover */
     color: white;
+    padding:2px;
+    border-right:3px solid white;
+    border-left:3px solid white;
 }
 
 /* this selects all a tags in the nav tag  */
@@ -76,14 +79,15 @@ nav a{
     font-size:1.8rem;
     margin-left: 4rem;
     transition: 0.3s ease;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
 
 }
 
-nav a :hover,
-/* a.active targets a tag with the class active */
+nav a:hover,
 nav a.active{
     color:brown;
-    border-bottom:3px dotted brown;
+    border-bottom:3px solid brown;
 }
 
 section{
@@ -230,16 +234,16 @@ span{
         content: "Web Developer";
     }
     21%, 40%{
-        content: "Developer";
+        content: "Computer Hardware Engineer";
     }
     41%, 60%{
         content: "Web Designer";
     }
     61%, 80%{
-        content: "Youtuber";
+        content: "Graphics Designer";
     }
     81%, 100%{
-        content: "Script Writer";
+        content: "Video Editor";
     }
 }
 
