@@ -63,7 +63,7 @@ header{
 }
 
 /* .logo:hover is a class-based pseudo-class selector that targets
- elements with the logo class only when they are hovered over. */
+ elements with the logo clzzass only when they are hovered over. */
 .logo:hover{
     transform: scale(1.1);
     /* this changes the color to white on hover */
@@ -135,4 +135,76 @@ span{
     font-size:1.8rem;
     font-weight: 500;
     
+}
+
+.social-icons a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 0.2rem solid brown;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color:brown;
+    width: 4rem;
+    height: 4rem;
+
+}
+
+.social-icons a:hover{
+    color:cadetblue;
+    transform: scale(1.3) translateY(-5px);
+    box-shadow: 0 0 25px brown;
+}
+
+.btn{
+    display:inline-block;
+    color: #b74b4b;
+    font-size: 3rem;
+    border: 3px #b74b4b solid;
+    transition: 0.3s ease;
+    padding: 1rem 2.8rem;
+    border-radius: 4rem;
+    letter-spacing: 0.3rem;
+    font-weight:600;
+    cursor:pointer;
+
+}
+
+.btn:hover{
+    color: white;
+    transform: scale3d(1.03);
+    /* adds glow effect */
+    box-shadow: 0 0 25px #b74b4b;
+    /* background-color:#b74b4b; */
+}
+
+.text{
+    font-family: poppins;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor:pointer;
+}
+
+.text:hover{
+    color:chocolate;
+    
+}
+
+.typing-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width:280px;
+}
+
+.typing-text span{
+    position: relative;
+}
+
+.typing-text span::before{
+    content: "Software Engineer";
+    color: #b74b4b;
+    animation: words 20s infinite;
 }
