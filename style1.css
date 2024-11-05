@@ -90,7 +90,7 @@ nav a.active{
     border-bottom:3px solid brown;
 }
 
-section{
+.home{
     /* this property ensure that contents of 
     this section's height is as big 
     as the height of the window theyre 
@@ -304,5 +304,78 @@ span{
         border-bottom: 0.5rem solid #b74b4b;
     }
 }
+
+.projects{
+    height: 50vh;
+}
+.projecthead{
+    color:white;
+    position: relative;
+    
+    /* width: fit-content; */
+    align-items: center;
+    text-align: center;
+    transition: 0.3px ease;
+    font-size: 3em;
+    cursor:pointer;
+}
+
+.projecthead:hover{
+    color:#b74b4b;
+    border-bottom: 3px white solid;
+
+}
+
+.workdone{
+    display: flex;
+
+    
+}
+
+.projectcontainer{
+    background-color: transparent;
+    margin: 7px;
+    border:#b74b4b solid 2px;
+    border-radius: 3rem;
+    padding: 5px;
+    
+}
+
+.projectname{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color:#b74b4b;
+    transition: 0.3s ease;
+    cursor:pointer;
+
+}
+.projectname:hover{
+    color:white;
+    transform: scale(1.2);
+    /* border-bottom: #b74b4b solid 3px; */
+
+}
+
+.projectcontent{
+    text-align:center;
+    font-weight: 500;
+    font-size:1.6rem;
+    margin-bottom: 10px;
+}
+
+.chomabtn{
+    text-align: center;
+    border-radius: 5rem;
+    font-size:3rem;
+    color:#b74b4b;
+    align-items: center;
+    border: solid white 3px;
+    padding: 4px;
+    
+
+}
+
+
 
 
