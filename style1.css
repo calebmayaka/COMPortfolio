@@ -2,7 +2,7 @@
 
 *{
     padding: 0;
-    border: none;
+    /* border: none; */
     margin: 0;
     box-sizing: border-box;
     outline:none;
@@ -306,7 +306,7 @@ span{
 }
 
 .projects{
-    height: 50vh;
+    height: 60vh;
 }
 .projecthead{
     color:white;
@@ -322,12 +322,13 @@ span{
 
 .projecthead:hover{
     color:#b74b4b;
-    border-bottom: 3px white solid;
+    /* border-bottom: 3px white solid; */
 
 }
 
 .workdone{
     display: flex;
+    justify-content: center;
 
     
 }
@@ -365,16 +366,115 @@ span{
 }
 
 .chomabtn{
+    position: relative;
+    left: 41%;
     text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    /* padding: 0px 0px 2px 2px; */
     border-radius: 5rem;
     font-size:3rem;
     color:#b74b4b;
     align-items: center;
     border: solid white 3px;
-    padding: 4px;
+    padding: 2px;
+    transition: 0.3s ease;
     
+}
+
+.chomabtn:hover{
+    transform: scale(0.95);
+    color: white;
+    box-shadow: 1px lightblue;
+    border: solid brown 5px;
 
 }
+
+.projectcontainer img{
+    width: 280px;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content:space-around;
+    position: relative;
+    left: 25%;
+}
+
+/* .vline{
+    background-color: white;
+    border:#b74b4b 5px solid;
+    font-weight: 5px;
+} */
+
+.page-end{
+    height:auto;
+    position: relative;
+    top: 100px;
+
+}
+.divcont{
+
+    padding-left: 300px;
+    padding-right: 250px;
+}
+
+.page-end footer{
+    display: flex;
+    
+    
+    align-items: center;
+    justify-content:space-between;
+    background-color:white;
+    
+}
+
+.footerheading{
+    color:#b74b4b;
+    font-size: 2em;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+.footerheading:hover{
+    transform: scale(1.1);
+    color:#b74b4b
+}
+
+.f1{
+    color:black;
+    font-size: 1.3em;
+    
+}
+
+.f2{
+    color:black;
+    font-size: 1.3em;
+}
+
+.copyright{
+    align-items: center;
+    background-color: white;
+    
+    
+}
+
+.copyright p{
+    font-size: 1.2em;
+    color:black;
+    padding-bottom: 0px;
+    transition: 0.3s ease;
+    text-align: center;
+
+}
+
+.copyright p:hover{
+    color:green;
+}
+
+
+
+
 
 
 
